@@ -55,7 +55,6 @@ def move_fon():
     screen.blit(bg_img, (bg_x, 0))
     screen.blit(bg_img, (bg_x + 1120, 0))
     bg_x -= 1
-    # движение фона
     if bg_x == -1120:
         bg_x = 0
 
